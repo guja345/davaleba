@@ -8,8 +8,6 @@ public class TicketService {
         var limitedTicket = new Ticket("Main hall", "124", 1456789L);
 
         System.out.println(emptyTicket);
-        System.out.println(fullTicket);
-        System.out.println(limitedTicket);
 
     }
 }
