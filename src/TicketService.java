@@ -14,4 +14,7 @@ public class TicketService {
         System.out.println(limitedTicket);
 
     }
+    public static int returnTicketById(Ticket ticket) {
+        return ticket.getID();
+    } 
 }
